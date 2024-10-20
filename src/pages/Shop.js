@@ -37,7 +37,7 @@ const Shop = observer(() => {
 			<Row className='mt-2'>
 				<Col md={3}>
 					<TypeBar />
-					<Button style={{ marginTop: '10px' }} onClick={onClick}>Очистить фильтры</Button>
+					<Button style={{ marginBottom: '10px' }} onClick={onClick}>Очистить фильтры</Button>
 				</Col>
 				<Col md={9}>
 					<BrandBar />
